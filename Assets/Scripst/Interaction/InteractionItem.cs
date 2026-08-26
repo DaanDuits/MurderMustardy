@@ -1,10 +1,13 @@
-using Unity.VisualScripting;
+using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(SpriteRenderer), typeof(BoxCollider2D))]
 public class InteractionItem : MonoBehaviour, IPointerDownHandler, IPointerEnterHandler, IPointerExitHandler
 {
+    [SerializeField] private TMP_Text dialogue;
+    [SerializeField][TextArea(3, 10)] private string dialogueText;
     [SerializeField] private Sprite hoverSprite;
     private Sprite _defaultSprite;
     private SpriteRenderer _spriteRenderer;
@@ -27,6 +30,6 @@ public class InteractionItem : MonoBehaviour, IPointerDownHandler, IPointerEnter
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        Debug.Log("Click");
+        dialogue.text = dialogueText;
     }    
 }

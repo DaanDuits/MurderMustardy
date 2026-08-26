@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 11692cc4c8df18447b3a2d8836c05cc1
+guid: 901ecd4070a3cdf42857d471540756c2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8932512071448612762
-    second: sambal_png_outline_0
+      213: 5537472741705737155
+    second: clipboard_submit_0
+  - first:
+      213: -2928133904262682434
+    second: clipboard_submit_1
+  - first:
+      213: 6566098369059314754
+    second: clipboard_submit_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +57,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 3000
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sambal_png_outline_0
+      name: clipboard_submit_0
       rect:
         serializedVersion: 2
-        x: 2584
-        y: 649
-        width: 2411
-        height: 3649
+        x: 214
+        y: 855
+        width: 237
+        height: 278
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +121,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 660ba65f897590480800000000000000
-      internalID: -8932512071448612762
+      spriteID: 3c367caae1e09dc40800000000000000
+      internalID: 5537472741705737155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboard_submit_1
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 604
+        width: 1293
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb825ad5abd2d57d0800000000000000
+      internalID: -2928133904262682434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clipboard_submit_2
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 450
+        width: 1619
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24c5d009da77f1b50800000000000000
+      internalID: 6566098369059314754
       vertices: []
       indices: 
       edges: []
@@ -135,7 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      sambal_png_outline_0: -8932512071448612762
+      clipboard_submit_0: 5537472741705737155
+      clipboard_submit_1: -2928133904262682434
+      clipboard_submit_2: 6566098369059314754
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

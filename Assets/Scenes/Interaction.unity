@@ -1275,7 +1275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 416f91b63ccda4c4d996b897a1e01e0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InteractionItem
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 1320347252}
   dialogueText: 
   hoverSprite: {fileID: -2413806693520163455, guid: bad8e078bee5e304a8c9ee6a9616f2d2, type: 3}
 --- !u!61 &1818266201
@@ -1416,7 +1416,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 416f91b63ccda4c4d996b897a1e01e0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InteractionItem
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 1320347252}
   dialogueText: 
   hoverSprite: {fileID: -2413806693520163455, guid: bad8e078bee5e304a8c9ee6a9616f2d2, type: 3}
 --- !u!212 &1839525924

@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 1c30e5c326861dc4889be85c08b55760
+guid: 273201e21644e4940b106cf06015dd88
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2977253814163783890
-    second: soy_outline_0
+      213: -2314699757929624426
+    second: mustard_0
+  - first:
+      213: 5964370487739789085
+    second: mustard_1
+  - first:
+      213: -2941298640833166054
+    second: mustard_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +57,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 2000
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: soy_outline_0
+      name: mustard_0
       rect:
         serializedVersion: 2
-        x: 1256
-        y: 239
-        width: 997
-        height: 2016
+        x: 764
+        y: 643
+        width: 33
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +121,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2d0c86fd194515920800000000000000
-      internalID: 2977253814163783890
+      spriteID: 69c0cee75d880efd0800000000000000
+      internalID: -2314699757929624426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mustard_1
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 594
+        width: 227
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1fad86ab53b5c250800000000000000
+      internalID: 5964370487739789085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mustard_2
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 530
+        width: 1944
+        height: 885
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a15ccc648786e27d0800000000000000
+      internalID: -2941298640833166054
       vertices: []
       indices: 
       edges: []
@@ -135,7 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      soy_outline_0: 2977253814163783890
+      mustard_0: -2314699757929624426
+      mustard_1: 5964370487739789085
+      mustard_2: -2941298640833166054
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
